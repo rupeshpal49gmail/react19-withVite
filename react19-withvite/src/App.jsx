@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import FirstComponents, { AddNumber, Greetmsg } from "./Components/FirstComp";
 import HeyClass from "./Components/ClassComp";
+import { Addphoto } from "./Components/Task";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AddNumber />
       <Greetmsg />
       <HeyClass />
+      <Addphoto />
     </div>
   );
 }
