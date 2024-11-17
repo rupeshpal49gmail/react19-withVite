@@ -1,11 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import FirstComponents, { AddNumber, Greetmsg } from "./Components/FirstComp";
 
 function Ok() {
   return (
-    <>
-      <h1>Hello Rupesh Pal</h1>
-    </>
+    <div>
+      <FirstComponents />
+      <h1>I am comming from the first App.js File</h1>
+      <AddNumber />
+      <Greetmsg />
+    </div>
   );
 }
 
