@@ -1,3 +1,4 @@
+import "./Style.css";
 export function Addphoto() {
   return (
     <div>
