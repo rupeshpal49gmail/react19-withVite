@@ -3,6 +3,7 @@ import "./App.css";
 import FirstComponents, { AddNumber, Greetmsg } from "./Components/FirstComp";
 import HeyClass from "./Components/ClassComp";
 import { Addphoto } from "./Components/Task";
+import StateChange from "./Components/StateComp";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Greetmsg />
       <HeyClass />
       <Addphoto />
+      <StateChange />
     </div>
   );
 }
